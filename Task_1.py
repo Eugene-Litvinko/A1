@@ -22,3 +22,7 @@ def creat_list_from_apple_2(target_list):
     return list_apple_2
 
 
+#Третий способ получения списка
+def creat_list_from_apple_3(target_list):
+    list_apple = list(filter(lambda x: x.__contains__('Apple'), target_list))
+    return list_apple

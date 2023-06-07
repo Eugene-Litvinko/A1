@@ -7,6 +7,7 @@ if __name__ == '__main__':
     # Задача 1.
     print(Task_1.creat_list_from_apple(current_list))
     print(Task_1.creat_list_from_apple_2(current_list))
+    print(Task_1.creat_list_from_apple_3(current_list))
 
     # Задача 2.
     cow = Task_2_1.Animal('Zorka', 'brown', 'My MY')
